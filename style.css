@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+*::selection{
+    color: white;
+    background: black;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background-color: teal;
+}
+.innerdiv{
+    margin-top: 15rem;
+    line-height: 6rem;
+    color: black;  
+    width: 650px; 
+
+}
+
+.main-heading{
+    font-size: 80px;
+    text-shadow: .5px 1px #ffffff;
+}
+
+#temp{
+    font-size: 88px;
+   
+}
